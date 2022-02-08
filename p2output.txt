@@ -1,1 +1,19 @@
-
+gcc -g p2original.c
+./a.out
+enter sides of triangle
+8
+9
+3
+triangle is scalene
+ ./a.out
+enter sides of triangle
+8
+8
+9
+the triangle is equilateral or isoceles
+ ./a.out
+enter sides of triangle
+9
+9
+9
+the triangle is equilateral or isoceles
