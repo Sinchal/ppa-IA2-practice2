@@ -1,1 +1,9 @@
-
+ gcc -g p3original.c
+./a.out
+enter the number you want to check
+13
+13 is not a composite number 
+./a.out
+enter the number you want to check
+15
+15 is a composite number
