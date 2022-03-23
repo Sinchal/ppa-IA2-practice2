@@ -1,1 +1,6 @@
-
+gcc -g p7original.c
+./a.out
+Enter the base, altitude of a triangle:
+4
+6
+The area of triangle with base=4.000 and altitud=6.000 is 12.000
