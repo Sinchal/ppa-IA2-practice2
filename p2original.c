@@ -1,9 +1,11 @@
 #include<stdio.h>
 
-void input_side(int *a, int *b, int *c)
+int input_side()
 {
-  printf("enter sides of triangle\n");
-  scanf("%d%d%d",a,b,c);
+  int a;
+  printf("enter the side of triangle\n");
+  scanf("%d",&a);
+  return a;
 }
 
 int check_scalene(int a, int b, int c)
@@ -31,7 +33,9 @@ void output(int a, int b, int c, int isscalene)
 int main()
 {
  int a,b,c,isscalene;
- input_side(&a,&b,&c);
+ a= input_side();
+ b= input_side();
+ c= input_side();
  isscalene=check_scalene(a,b,c);
  output(a,b,c,isscalene);
  return 0;

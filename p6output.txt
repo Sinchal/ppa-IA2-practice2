@@ -1,1 +1,6 @@
-
+gcc -g p6original.c
+./a.out
+Enter the string: 
+sinchal
+The reverse of the string is: 
+lahcnis

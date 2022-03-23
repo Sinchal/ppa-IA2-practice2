@@ -3,7 +3,7 @@
 int input()
 {
   int a;
-  printf("Enter the number :\n");
+  printf("Enter the number:\n");
   scanf("%d",&a);
   return a;
 }
@@ -21,7 +21,7 @@ int gcd(int a,int b)
 
 void output(int a,int b,int hcf)
 {
-  printf("The gcd of %d and %d is %d",a,b,hcf);
+  printf("The gcd of %d and %d is %d\n",a,b,hcf);
 }
 
 int main()
