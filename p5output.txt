@@ -1,1 +1,7 @@
-
+gcc -g p5original.c
+./a.out
+Enter the number:
+4
+Enter the number:
+3
+The gcd of 4 and 3 is 1

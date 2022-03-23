@@ -1,1 +1,8 @@
-
+gcc -g p4original.c
+./a.out
+How many numbers do you want to enter?
+ 3
+Enter 1th number:- 5
+Enter 2th number:- 2
+Enter 3th number:- 7
+Sum of all composite numbers is 7
